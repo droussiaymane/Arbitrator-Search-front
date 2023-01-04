@@ -1,0 +1,144 @@
+
+
+.adr-title {
+    font-size: 48px;
+    color: rgb(225, 4, 15);
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(178, 179, 179);
+
+}
+.top-div {
+    padding:30px 0; 
+    border-bottom-style: solid; 
+    border-bottom-width: 1px; 
+    border-bottom-color: rgb(178, 179, 179);
+}
+.search-pannel{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7a7878;
+    font: 15px Arial,
+        Helvetica,
+        sans-serif;
+    font-weight: bold;
+}
+.search-input {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border-collapse: separate;
+    
+}
+.radio-btn{
+    margin-right: 2px;
+    margin-left: 5px;
+
+}
+.rateImg {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    margin-left: 80%;
+}
+.searchButton {
+    cursor: pointer;
+    background-color: transparent;
+    float: right;
+    border: none;
+    padding: 10px;
+    
+}
+th {
+   float:left;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.goLink{
+    color: rgb(225, 4, 15);
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+.goLink:hover{
+    color: rgb(225, 4, 15);
+}
+
+table {
+    display: flex;
+    justify-content: space-evenly;
+    /* text-indent: initial; */
+    /* border-spacing: 2px; */
+}
+/* 
+.footerTd td:nth-child(1) {
+    display: none;
+}
+
+.NysiFooter td a span {
+    color: #ffffff !important;
+}
+
+.Footer table tr td,
+.Footer span {
+    margin-right: 10px !important;
+    color: #ffffff !important;
+    font-size: 14px !important;
+}
+
+.FooterWdth {
+    width: 1030px;
+    margin: 0 auto;
+}
+
+.mrght15 {
+    margin-right: 10px;
+}
+
+.megaPanFooter td:nth-child(1) {
+    display: block !important;
+}
+
+.megaPanFooter a.animate {
+    transition: background .5s;
+}
+
+.megaPanFooter a {
+    display: block;
+    width: 23px;
+    height: 23px;
+    line-height: 0 !important;
+    font-size: 0 !important;
+    line-height: 0 !important;
+    font-size: 0 !important;
+}
+
+a.linkedin {
+    background: url("../images/socialIconIn.png") 0% 0%;
+}
+
+a.linkedin:hover {
+    background: url("../images/socialIconIn.png")no-repeat 0% 100%;
+}
+
+a.twitter {
+    background: url("../images/socialTwit.png")no-repeat 48% 0%;
+}
+
+a.twitter:hover {
+    background: url("../images/socialTwit.png")no-repeat 48% 100%;
+}
+
+a.youtube {
+    background: url("../images/socialIconYouTube.png")no-repeat 100% 0%;
+}
+
+a.youtube:hover {
+    background: url("../images/socialIconYouTube.png")no-repeat 100% 100%;
+}
+
+.mTop {
+    margin-top: 365px;
+} */

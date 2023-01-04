@@ -1,0 +1,163 @@
+.rating {
+    
+}
+
+.rating:not(:checked) > label {
+    float: right;
+    width: 1em;
+    padding: 0 .1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 350%;
+    line-height: 1.2;
+    color: #ddd;
+    text-shadow: 1px 1px #bbb, 2px 2px #666, 0.1em 0.1em 0.2em rgb(0 0 0 / 50%);
+    text-shadow: 1px 1px #bbb, 2px 2px #666, .1em .1em .2em rgba(0, 0, 0, .5);
+}
+
+.document{
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 11px;
+    background-color: white !important;
+    background-image: none;
+}
+
+
+
+
+ div .rating-star {
+    background: url("../../assets/images/rating-star.png") repeat-x 0 0;
+    width: 150px;
+}
+
+div .rating-star input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+div .rating-star input[type="radio"].star-5:checked~span {
+    width: 100%;
+}
+
+div .rating-star input[type="radio"].star-4:checked~span {
+    width: 80%;
+}
+
+div .rating-star input[type="radio"].star-3:checked~span {
+    width: 60%;
+}
+
+div .rating-star input[type="radio"].star-2:checked~span {
+    width: 40%;
+}
+
+div .rating-star input[type="radio"].star-1:checked~span {
+    width: 20%;
+}
+
+div .rating-star label {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-indent: -999em;
+    float: left;
+    position: relative;
+    z-index: 10;
+    background: transparent !important;
+    cursor: pointer;
+}
+
+
+.rating:not(:checked)>label:before {
+    content: '';
+}
+
+.rating>input:checked~label {
+    color: #f70;
+    text-shadow: 1px 1px #c60, 2px 2px #940, .1em .1em .2em rgba(0, 0, 0, .5);
+}
+
+.rating:not(:checked)>label:hover,
+.rating:not(:checked)>label:hover~label {
+    color: gold;
+    text-shadow: 1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0, 0, 0, .5);
+}
+
+.rating>input:checked+label:hover,
+.rating>input:checked+label:hover~label,
+.rating>input:checked~label:hover,
+.rating>input:checked~label:hover~label,
+.rating>label:hover~input:checked~label {
+    color: #ea0;
+    text-shadow: 1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0, 0, 0, .5);
+}
+
+.rating>label:active {
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+div .rating-star label:hover~span {
+    background-position: 0 -30px;
+}
+
+div .rating-star label.star-5:hover~span {
+    width: 100% !important;
+}
+
+div .rating-star label.star-4:hover~span {
+    width: 80% !important;
+}
+
+div .rating-star label.star-3:hover~span {
+    width: 60% !important;
+}
+
+div .rating-star label.star-2:hover~span {
+    width: 40% !important;
+}
+
+div .rating-star label.star-1:hover~span {
+    width: 20% !important;
+}
+
+
+
+
+#content{
+    max-width: 600px;
+    height: 600px;
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    border: solid rgb(19, 19, 19);
+    border-radius: 5px;
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    background-color: rgb(231, 236, 238);
+
+}
+
+fieldset > input {  
+     visibility: hidden;
+        
+}
+
+.titleCloseBtn {
+    margin-top: 15%;
+    padding: 2px;
+    display: inline-flex;
+    
+}
+
+
+

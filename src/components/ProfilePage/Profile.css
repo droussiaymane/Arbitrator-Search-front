@@ -1,0 +1,53 @@
+.titleBox {
+    background: url("../../assets/images/title_bg.png");
+    width: 910px;
+    padding: 19px 0 10px 40px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #fcfafa;
+}
+
+ td{
+    display: inline-flex;
+    flex-direction: column;
+   margin: 10px;
+   color: #373636;
+    font-family: 20px Arial, Helvetica, sans-serif;
+}
+
+th{
+    color: #373636;
+}
+.content {
+    background-color: #fcfafa;   
+    text-align: left;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #373636;
+
+}
+.feebackDiv{
+  float: right; 
+  margin-right: 170px; 
+}
+.videoDiv{
+    
+    margin-bottom: 20px;
+    margin-left: 80%;
+
+}
+
+.header-div{
+  padding: 10px;
+  margin: 15px;
+}
+
+.middle-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+   
+}
